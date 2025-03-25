@@ -1,7 +1,7 @@
 class StringCompare {
     @SuppressWarnings("StringEquality")
     public static void main(String[] args) {
-        // Declare and initialize strings
+        // Declare 
         String str = "hello";
         @SuppressWarnings("RedundantStringConstructorCall")
         String str1 = new String("hello");
