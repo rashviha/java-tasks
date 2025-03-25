@@ -1,8 +1,8 @@
 class acc{
     public static void main(String[] args){
         Account ac=new Account ("Rashviha",2000000000);
-        System.out.println("Accholder name: "+ac.getAccholder());
-        System.out.println("Holder balance: "+ac.getBalance());
+        System.out.println("Accholder name: "+ac.getAccholder());  //to get accholname
+        System.out.println("Holder balance: "+ac.getBalance());    //to get balance
         
     }
 }
