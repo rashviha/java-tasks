@@ -22,7 +22,6 @@ class Main {
         ac.addCredit(creditAmount); // Add credit to the balance
         System.out.println("Updated balance after credit: " + ac.getBalance());
 
-       
         System.out.print("Enter amount to debit: ");
         int debitAmount = scanner.nextInt();
         ac.adddebit(debitAmount); // Subtract debit from the balance
